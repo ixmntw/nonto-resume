@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand&family=Sarabun&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', 'Sarabun', 'sans-serif';
+}
+
+:root {
+    --light-grey: #AAABAB;
+    --pink: #F7559A;
+    --white: #FFFFFF;
+    --black: #202020;
+    --bright-grey: #C4C4C4;
+    --normal-grey: #909292;
+}
+
+/* Default Style */
+* {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    min-height: 100vh;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+}
+
+/* Navigation Bar */
+nav {
+    padding: 0;
+}
+
+.navbarTop {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarTop .logo {
+    font-size: 2rem;
+    color: var(--pink);
+}
+
+.navbarTop .webLinks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbarTop .webLinks a {
+    font-size: 1.25rem;
+    color: var(--white);
+    transition: 0.75s ease;
+}
+
+.navbarTop .webLinks a:hover {
+    color: var(--peach);
+    padding: 5px 10px;
+    background-color: var(--white);
+    border-radius: 25px;
+}
+
+/* Home Section */
+.home-section {
+    padding: 5rem 0;
+}
+
+.home-section .content-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile-card h1 {
+    font-size: 56px;
+}
